@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "commitlint",
+    "tailwindcss",
+    "tsbuildinfo",
+    "svgr",
+    "paralleldrive",
+    "sonner",
+    "vaul",
+    "cmdk",
+    "shadcn",
+    "zustand",
+    "turborepo"
+  ],
+  "ignorePaths": [
+    "node_modules/",
+    "build/",
+    "dist/",
+    ".husky",
+    ".sst",
+    "*.svg",
+    "pnpm-lock.yaml",
+    "package.json",
+    "*.tsbuildinfo",
+    "*.css",
+    ".github/workflows/**",
+    ".eslintignore",
+    ".gitignore",
+    ".prettierignore"
+  ]
+}
