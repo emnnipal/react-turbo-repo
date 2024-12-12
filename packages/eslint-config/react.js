@@ -51,26 +51,7 @@ export const reactLint = tsEslint.config(
       'import/no-extraneous-dependencies': 'off',
       'import/prefer-default-export': 'off',
       'import/no-cycle': 'off',
-      'import/order': [
-        'error',
-        {
-          groups: [
-            'index',
-            'internal',
-            'sibling',
-            'parent',
-            'external',
-            'builtin',
-            'object',
-            'type',
-          ],
-          'newlines-between': 'always',
-          alphabetize: {
-            order: 'asc',
-            caseInsensitive: true,
-          },
-        },
-      ],
+      'import/order': 'off',
     },
   },
   eslintConfigPrettier // This must be placed last to avoid being overridden.
